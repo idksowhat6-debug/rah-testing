@@ -15,7 +15,11 @@
         const message = document.querySelector("#message");
 
         button.addEventListener("click", function() {
-          message.textContent = "Test succeed";
+        if (message.textContent = "something") {
+          message.textContent = "toggled";
+        } else {
+          message.textContent = "something";
+        }
         });
       </script>
   </body>
