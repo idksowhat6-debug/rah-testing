@@ -8,5 +8,15 @@
     <p style="font-family: monospace;">Hello!</p>
     <p>hiii</p>
     <body style="background-color: #22212B; color: #E6E1F0;">
+    <button>test button</button>
+      <p id="message">something</p>
+      <script>
+        const button = document.querySelector("button");
+        const button = document.querySelector("#message");
+
+        button.addEventListener("click", function() {
+          message.textContent = "Test succeed";
+        });
+      </script>
   </body>
 </html>
